@@ -38,7 +38,7 @@ jobs:
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/cricket-research-dashboard
+          path: dist/cricket-research-dashboard/browser
 
   deploy:
     environment:
